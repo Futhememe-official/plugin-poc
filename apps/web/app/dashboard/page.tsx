@@ -5,7 +5,7 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import { PluginSpace } from "../components/plugin-space";
 
 import { useExtension, Extension } from "@repo/plugin-lib/index";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { CardDescription } from "@/components/ui/card";
