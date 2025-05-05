@@ -1,0 +1,7 @@
+{
+  "name": "plugin-system-turbo",
+  "private": true,
+  "devDependencies": {
+    "turbo": "2.5.0"
+  }
+}

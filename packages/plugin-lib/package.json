@@ -1,0 +1,19 @@
+{
+  "name": "@repo/plugin-lib",
+  "version": "0.1.0",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.3",
+    "@types/react": "^18.0.0",
+    "react": "^18.2.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0"
+  }
+}
